@@ -1,0 +1,105 @@
+.contenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteneur {
+    background-color: #0000000f ;
+    border-radius: 10px;
+    padding: 20px;
+    height: 440px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#conteneur h1 {
+    display: flex;
+    font-family: 'ValorantSite';
+    justify-content: center;
+}
+
+#quizBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#quizBox h2 {
+    display: flex;
+    width: 100%;
+    font-family: 'ValoText';
+    color: #ff4655;
+    justify-content: center;
+}
+
+#BoutonsReponses {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.btn{
+    width: 100%;
+    padding: 5px;
+    margin: 8px;
+    margin-left: 0;
+    cursor: url('../img/crosshair2.png'),auto;
+    height: 35px;
+    border: none;
+    background-color: #ece8e1;
+    border-radius: 3px;
+    transition: 0.2s;
+    font-family: 'Valorant';
+}
+
+.btn:hover:not([disabled]) {
+    background-color: #ff4655;
+    color: #ece8e1;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#imgBoxQuiz {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fatQuizBox {
+    display: flex;
+}
+
+#nextBtnBox {
+    display: flex;
+    justify-content: center;
+}
+
+#nextBtn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 30%;
+    display: none;
+}
+
+#nextBtn:hover {
+    background-color: rgb(17, 17, 17);
+    color: #ece8e1;
+}
+
+.correct {
+    background-color: aquamarine;
+}
+
+.incorrect {
+    background-color: #ff4655;
+}
+
+.img {
+    width: 200px;
+}

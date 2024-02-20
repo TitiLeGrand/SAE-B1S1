@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url(../fonts/Valorant\ Font.ttf);
+}
+
+@font-face {
+    font-family: 'ValorantSite';
+    src: url(../fonts/ValorantSite.ttf);
+}
+
+@font-face {
+    font-family: 'ValoText';
+    src: url(../fonts/ValoTexte.ttf);
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    margin: 0;
+    overflow-x: hidden;
+    cursor: url('../img/crosshair.png'), auto; 
+}
+
+header {
+    background-color: rgb(17, 17, 17);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
+
+}
+
+.conteneurHeader {
+    width: 30px;
+    color: #ece8e1;
+    font-family: 'Valorant';
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#imglogo {
+    width: 60px;
+    height: 60px;
+}
+
+.logo {
+    width: 60px;
+}
+
+
+.boutons {
+    height: 100%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.boutonmenu {
+    color: #ece8e1;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    height: 100%;
+    text-align: center;
+    width: 90px;
+    font-family: 'Valorant';
+    transition: all 0.2s;
+
+}
+
+.boutonmenu:hover {
+    color: #ece8e1;
+    background-color: #ff4655;
+}
+
+.bandeau {
+    background-color: rgb(255, 70, 85);
+    float: left;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    transition: 0.5s;
+
+}
+
+
+
+.contenu {
+    background-color: #ece8e1;
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    min-height: 670px;
+}
+
+footer {
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    float: left;
+    color: #ece8e1;
+    text-align: center;
+    font-family: 'Valorant';
+}
+
+.theme {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    margin: auto;
+
+}
+
+.espace {
+    width: 189.28px;
+}
+
+#omegaText {
+    padding-right: 10px;
+    color: #4362fe;
+}
+
+#alphaText {
+    color: #ff4655;
+}
+
+#omegaText,
+#alphaText {
+    font-family: 'Valorant';
+}
+
+.switch {
+    top: 30%;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.switch input {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 0;
+    height: 0;
+}
+
+.switch input+span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ff4655;
+    border-radius: 20px;
+}
+
+.switch input:checked+span {
+    background: #346abf;
+}
+
+.switch input+span:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    background: rgb(17, 17, 17);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all .5s;
+}
+
+.switch input:checked+span:before {
+    left: 25px;
+}
+
+#lienInvisible {
+    text-decoration: none;
+    color: #ece8e1;
+}
+
+#rifleIcon,
+#agentsIcon,
+#mapsIcon,
+#loreIcon,
+#rankIcon {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/* Style du footer fait par Thibault */
+
+footer {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ensemble_logo_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+
+.logo_footer {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.logo_footer>a>img {
+    height: 20px;
+    width: 20px;
+}
+
+.logo_footer:hover {
+    background-color: #ff4655;
+}
+
+
+
+#logoYtb {
+    height: 17px;
+    margin-bottom: 1.5px;
+}
+
+#logoDiscord {
+    height: 16px;
+    margin-bottom: 2px;
+}
+
+.logo_footer_gauche {
+    margin-right: 8px;
+}
+
+.logo_footer_centre {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.logo_footer_droite {
+    margin-left: 8px;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black; /* Couleur de fond noire */
+}
+
+#vision {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, transparent 20%, black 100%);
+    border-radius: 50%;
+    pointer-events: none; /* Permet de cliquer à travers le cercle */
+    transform: translate(-50%, -50%);
+}
