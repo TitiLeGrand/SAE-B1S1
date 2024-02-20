@@ -1,0 +1,113 @@
+.bandeau {
+    display: none;
+}
+
+.contenu {
+    margin: 0;
+}
+
+#titreBox {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'ValorantSite';
+    font-size: 1.8em;
+    line-height: 50%;
+}
+
+.boxStyle {
+    height: 230px;
+    overflow: hidden;
+    font-family: 'Valorant';
+
+}
+
+.imgBoxStyle {
+    height: 400px;
+    width: auto;
+    transition: 0.2s;
+    z-index: 2;
+    position: relative;  
+}
+
+
+
+
+.imgBoxStyleDroite {
+    height: 400px;
+    width: auto;
+    transition: 0.2s;
+    z-index: 2;
+    position: relative;
+    float: right;
+}
+
+#imgBox {
+    float: left;
+    
+}
+
+#textDescBox {
+    float: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    color: #ff4655;
+    position: relative;
+}
+
+#textDescBoxArmes {
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    color: #ff4655;
+    position: relative;
+}
+
+.textToMove {
+    z-index: 1;
+    position: relative;
+}
+
+#imgCrop2 {
+    display: none;
+    height: 400px;
+    width: auto;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.text2ToMove {
+    transition: all 0.2s;
+}
+
+.textToMove3 {
+    transition: all 0.2s;
+}
+
+.text4ToMove {
+    transition: all 0.2s;
+}
+
+.text5ToMove {
+    transition: all 0.2s;
+}
+
+.rougeTexte {
+    transition: all 0.2s;
+}
+
+.selectedBackground {
+    width: 0px;
+}
+
+.selectedBackgroundStyle {
+    float: left;
+    width: 100%;
+    height: 230px;
+    z-index: 0;
+    position: absolute;
+    transition: all 0.2s;
+}

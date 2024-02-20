@@ -1,0 +1,24 @@
+.contenu {
+    margin: 0;
+    font-family: 'Valorant';
+}
+
+.intro {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'ValorantSite';
+    font-size: 22px;
+}
+
+.videoIntro {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 30px;
+}
+#videoIntroID {
+    height: 350px;
+}

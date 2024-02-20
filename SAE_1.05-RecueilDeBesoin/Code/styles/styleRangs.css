@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url(../fonts/Valorant_Font.ttf);
+}
+
+@font-face {
+    font-family: 'ValorantSite';
+    src: url(../fonts/ValorantSite.ttf);
+}
+
+@font-face {
+    font-family: 'ValoText';
+    src: url(../fonts/ValoTexte.ttf);
+}
+
+.contenu{
+    font-family: 'Valorant';
+}
+
+h1{
+    font-size: 300%;
+    color: #ff4655;
+}
+
+red{
+    color:#ff4655;
+}
+
+h2{
+    font-size: 200%;
+    font-family: 'ValoText';
+}
+
+h3{
+    font-size: 200%;
+}
+
+#imgvalo{
+    text-align: center;
+}
+
+
+
+#rang_silver{
+    margin-top: 430px;
+    margin-left: -195px;
+}
+
+#rang_gold{
+    margin-top: 430px;
+    margin-right: -195px;
+}
+
+#rang_diams{
+    margin-top: -25px;
+    float: right;
+}
+
+#rang_plat{
+    margin-top: 500px;
+    margin-left: -210px;
+}
+
+#rang_ascend{
+    margin-top: 500px;
+    margin-left: -217px;
+    position: relative;
+}
+
+#rang_immo{
+    float: right;
+    margin-top: 55px;
+}
+
+#rang_rad{
+    margin: auto;
+    display: flex;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+#text_silver{
+    margin-top: 460px;
+}
+
+#text_plat{
+    margin-top:550px;
+}
+
+#text_immo{
+    margin-top: 60px;
+    margin-left: 225px;
+}
+
+#text_immo2{
+    margin-top: 10px;
+    margin-left: 225px;
+}
+
+#text_rad{
+    text-align: center;
+}
+
+#rangvalo{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    
+}

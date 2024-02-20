@@ -1,0 +1,2 @@
+# Subject
+In this SAE, we were in groups of three to create two AIs. These AIs were to play tic-tac-toe on a 15x15 grid; the circle AI had to align 5 circles to win, while the cross AI simply had to block them to win. The basic code was already provided, and we just had to complete the functions jouerRond and jouerCroix.

@@ -1,0 +1,193 @@
+h2, p, h1 {
+    margin : 0;
+}
+
+
+.agentName {
+    font-family: 'Valorant';
+    padding-left: 2%;
+    float: left;
+    font-size: 40px;
+
+}
+
+.agentDesc {
+    font-family: 'ValoText';
+    padding-left: 1%;
+    float: left;
+    margin-top: 10px;
+}
+
+.agentLeft {
+    width: 50%;
+    height: 80px;
+}
+
+.agentRight {
+    display: flex;
+    float: left;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.displayIcon {
+    margin-top: 190px;
+    height: 600px;
+
+}
+
+.oneAgentBox {
+    display: flex;
+    height: 150px;
+    margin-top: 30px;
+    padding: 4%;
+    overflow: hidden;
+}
+
+.selecteurClass {
+    display: flex;
+    justify-content: space-between;
+    padding-left:20%;
+    padding-right: 20%;
+    align-items: center;
+    margin-top: 50px;
+    height: 30px;
+}
+
+.classButton {
+    width: 140px;
+    height: 26px;
+    border: 0;
+    background-color: rgb(17, 17, 17);
+    color: #ece8e1;
+    transition-duration: 0.3s;
+    padding: 2px;
+    clip-path: polygon(100% 0, 100% 50%, 90% 100%, 0 100%, 0 0);
+    font-family: 'ValorantSite';
+    font-size: 18px;
+    cursor: url('../img/crosshair2.png'), auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+body {
+  background: #0f1923;
+  font-family: "Muli";
+}
+
+.abilitiesBox {
+    width: 250px;
+    height: 100%;
+    color: #ece8e1;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.buttonAbilities {
+    width: 100%;
+    height: 50px;
+    font-family: 'ValorantSite';
+    font-size: 20px;
+    background-color: #ece8e1;
+    border: 2px solid #0f1923;
+    cursor: url('../img/crosshair2.png'), auto;
+    transition-duration: 0.2s;
+}
+
+.buttonAbilities:hover {
+    background-color: #ff4655;
+    color: #ece8e1;
+    border: none;
+    
+}
+
+.Modal {
+    width: 90%;
+    height: 350px;
+    background-color: #0f1923;
+}
+
+.closeModalBtn {
+    border: none;
+    background-color: #0f1923;
+    color: #ece8e1;
+    width: 30px;
+    height: 30px;
+    cursor: url('../img/crosshair2.png'), auto;
+    transition-duration: 0.2s;
+}
+
+.closeModalBtn:hover {
+    background-color: #ff4655;
+    color: #ece8e1;
+}
+
+.titreAbilities {
+    color: #ece8e1;
+    letter-spacing: 1px;
+}
+
+.contenuAbilities {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titreAbilities {
+    width: 100%;
+    height: 30px;
+    font-family: 'ValorantSite';
+    padding-left: 10px;
+}
+
+.leftAbilities {
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsAbilities {
+    padding-top: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonAbility {
+    background-color: #0f1923;
+    border: none;
+    padding: 5px;
+    border: 2px solid #ece8e1;
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.2s;
+}
+
+.buttonAbility:hover {
+    background-color: #ff4655;
+    cursor: url('../img/crosshair2.png'), auto;
+}
+
+.imgAbility {
+    height: 35px;
+}
+
+.descAbility {
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'ValoText';
+    color: #ece8e1;
+    line-height: 25px;
+}

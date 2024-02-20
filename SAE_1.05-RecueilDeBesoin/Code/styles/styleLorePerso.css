@@ -1,0 +1,97 @@
+#GrosTitre{
+    font-family: 'Valorant';
+    font-size: 60px;
+    margin-top: 120px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcut{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+#spe{
+    display: flex;
+    height: 200px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.text{
+    font-family: "ValoText";
+    font-weight: bold;
+    font-size: 25,5px;
+    color: rgb(118, 128, 131);
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#divImg{
+    display: flex;
+    justify-content: space-around;
+}
+.contenu{
+    display: flex;
+    flex-direction: column;
+}
+
+#ContenueSous{
+    display: flex;
+    justify-content: center;
+}
+
+#centrer{
+    width: 900px;
+}
+
+iframe{
+    height: 490px;
+    width: 100%;
+    margin: 10px;
+}
+
+.div_audio{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Valorant';
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.relation{
+    display: flex;
+}
+
+/* .sousRelation{
+    border: solid rgb(118, 128, 131);
+    width: ;
+} */
+
+@media screen and (max-width : 770px){
+    #divImg{
+        flex-direction: column;
+    }
+    #divImg>img{
+        padding: 60px;
+        padding-top: 0px;
+
+    }
+    #imgVP08Inconue{
+        display: none;
+    }
+}
+
+
